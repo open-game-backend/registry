@@ -77,10 +77,18 @@
 		</resources>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages (util)</name>
+			<url>https://maven.pkg.github.com/open-game-backend/util</url>
+		</repository>
+	</repositories>
+
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Packages</name>
+            <name>GitHub Packages (registry)</name>
             <url>https://maven.pkg.github.com/open-game-backend/registry</url>
         </repository>
     </distributionManagement>
